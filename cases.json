@@ -1,0 +1,126 @@
+[
+  {
+    "title": "SoMe annonce",
+    "subtitle": "15 sek. animeret videoklip",
+    "category": "video",
+    "media": "portfolio/P01_AE_spisbedre.mp4",
+    "thumb": "portfolio/thumbs/thumb01.png",
+    "type": "video",
+    "size": null
+  },
+  {
+    "title": "HTML5-banner",
+    "subtitle": "Bannerkampagne, eksempel i 320x320",
+    "category": "html5",
+    "media": "portfolio/HTML5_P04_Aussie320x320/320x320/K01_12_2020_Auusie_blondehydration_320x320.html",
+    "thumb": "portfolio/thumbs/thumb02.png",
+    "type": "html5",
+    "size": "320x320"
+  },
+  {
+    "title": "HTML5-banner",
+    "subtitle": "Bannerkampagne, eksempel i 300x600",
+    "category": "html5",
+    "media": "portfolio/HTML5_P03_Medina300x600/300x600.html",
+    "thumb": "portfolio/thumbs/thumb03.png",
+    "type": "html5",
+    "size": "300x600"
+  },
+  {
+    "title": "Animeret fortælling",
+    "subtitle": "Illustrationer med tegnefilmseffekter. Illustrationer: Tegnestuen Herman Ditte",
+    "category": "story",
+    "media": "portfolio/AE_P01.mp4",
+    "thumb": "portfolio/thumb04_AE01.png",
+    "type": "story",
+    "size": "300x600"
+  },
+  {
+    "title": "SoMe annonce",
+    "subtitle": "15 sek. animeret videoklip",
+    "category": "video",
+    "media": "portfolio/SH_ABO_sommer_9-16_01.mp4",
+    "thumb": "portfolio/thumb_05.png",
+    "type": "video",
+    "size": "300x600"
+  },
+  {
+    "title": "TV-spot",
+    "subtitle": "15 sek. reklame på TV2",
+    "category": "tvc",
+    "media": "portfolio/TVC_P06.mp4",
+    "thumb": "portfolio/thumb05_TVC01_P05.png",
+    "type": "video",
+    "size": "300x600"
+  },
+  {
+    "title": "HTML-banner",
+    "subtitle": "Bannerkampagne, eksempel i 300x600",
+    "category": "html5",
+    "media": "portfolio/FJ_300x600/300x600.html",
+    "thumb": "portfolio/thumb_07.png",
+    "type": "html5",
+    "size": "300x600"
+  },
+  {
+    "title": "SoMe annonce",
+    "subtitle": "15 sek. animeret videoklip",
+    "category": "video",
+    "media": "portfolio/SB_Sommer_ABO_MILJØ_2024_1-1.mp4",
+    "thumb": "portfolio/thumb_08.png",
+    "type": "video",
+    "size": "300x600"
+  },
+
+  {
+    "title": "Illustrationer",
+    "subtitle": "Tema illustrationer til App UI",
+    "category": "illustration",
+    "media": "portfolio/UI01buttons.jpg",
+    "thumb": "portfolio/UI01buttons.jpg",
+    "type": "illustration",
+    "size": "600x600"
+  },
+
+    {
+    "title": "Magasinlayout",
+    "subtitle": "Til fagbladet Elektrikeren",
+    "category": "Print",
+    "media": "portfolio/Opslag_magasin_elektrikeren_P07.jpg",
+    "thumb": "portfolio/thumb_P07.jpg",
+    "type": "Print",
+    "size": "600x600"
+  },
+
+    {
+    "title": "Interscroller",
+    "subtitle": "Scrollbanner til hjemmeside i mobilvisning",
+    "category": "Banner",
+    "media": "portfolio/interscrollers_bruunR_P08.jpg",
+    "thumb": "portfolio/thumb_P08.jpg",
+    "type": "Banner",
+    "size": "600x600"
+  },
+
+    {
+    "title": "Appstore præsentation",
+    "subtitle": "Videopræsenttation af app på Appstore / Google Play",
+    "category": "Video",
+    "media": "portfolio/6-5_appstore_ALLY_Final_P09.mp4",
+    "thumb": "portfolio/thumb_P09.png",
+    "type": "Video",
+    "size": "600x600"
+  },
+
+      {
+    "title": "Ikoner",
+    "subtitle": "Retroikoner til nostalgi hjemmeside",
+    "category": "illustration",
+    "media": "portfolio/bb_ikoner.jpg",
+    "thumb": "portfolio/thumb_10.jpg",
+    "type": "illustration",
+    "size": "600x600"
+  }
+
+
+]
