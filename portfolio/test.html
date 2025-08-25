@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mikkel Svensson – Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HERO / INTRO -->
+  <section class="hero">
+    <h1>Mikkel Svensson</h1>
+    <p>Grafisk designer & frontend-udvikler – visuel kommunikation med teknik og kant</p>
+  </section>
+
+  <!-- OM MIG -->
+  <section class="case-text">
+    <h2>Om mig</h2>
+    <p>
+      Jeg kombinerer grafisk design og teknisk forståelse i alt fra print og præsentationer til HTML5-animationer og frontend-løsninger.
+      Fokus på klarhed, håndværk og visuel nerve – og jeg har det bedst, når jeg både skaber og eksekverer.
+    </p>
+  </section>
+
+  <!-- CASE: VIDEO -->
+  <section class="portfolio-card" data-video="portfolio/AE_P01.mp4" data-size="1280x720">
+    <img src="portfolio/thumb01_AE01.png" alt="Motion graphics thumbnail">
+    <div class="portfolio-info">
+      <h3>Animeret novelle</h3>
+      <p>Adobe After Effects, Audition og Photoshop. Fortælling med lyd og visuel rytme.</p>
+    </div>
+  </section>
+
+  <!-- CASE: HTML5-BANNER -->
+  <section class="portfolio-card" data-banner="bannere/banner01/index.html" data-size="300x250">
+    <img src="portfolio/thumb_banner01.png" alt="Banner preview">
+    <div class="portfolio-info">
+      <h3>GSAP Banner</h3>
+      <p>HTML5-animation med fokus på timing, clicktags og vægt.</p>
+    </div>
+  </section>
+
+  <!-- CASE: STILLBILLEDE -->
+  <section class="portfolio-card" data-banner="portfolio/plakat_01.jpg" data-size="900x1200">
+    <img src="portfolio/thumb_plakat_01.jpg" alt="Plakat preview">
+    <div class="portfolio-info">
+      <h3>Plakatserie</h3>
+      <p>InDesign, Illustrator og trykklart layout til A2-format.</p>
+    </div>
+  </section>
+
+  <!-- VÆRKTØJER -->
+  <section class="skills-grid">
+    <h2>Værktøjer & teknikker</h2>
+    <ul>
+      <li><span class="dot filled"></span> After Effects</li>
+      <li><span class="dot filled"></span> GSAP & HTML5</li>
+      <li><span class="dot filled"></span> UI-design & struktur</li>
+      <li><span class="dot filled"></span> Adobe Illustrator</li>
+      <li><span class="dot filled"></span> Motion Graphics</li>
+      <li><span class="dot filled"></span> Frontend med flair</li>
+    </ul>
+  </section>
+
+  <!-- ERFARING -->
+  <section class="experience">
+    <h2>Erfaring</h2>
+    <div class="card">
+      <strong>Aller Media (2010–2025)</strong>
+      <ul>
+        <li>Motion graphics & web animation</li>
+        <li>UI-grafik og kampagnearbejde</li>
+      </ul>
+    </div>
+    <div class="card">
+      <strong>Datagraf (2006–2009)</strong>
+      <ul>
+        <li>Magasinlayout og illustration</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- KONTAKT / DOWNLOAD -->
+  <footer>
+    <p>Kontakt: <a href="mailto:mail@mikkelsvensson.dk">mail@mikkelsvensson.dk</a></p>
+    <p><a href="portfolio/MikkelSvensson_CV.pdf" target="_blank">Download CV som PDF</a></p>
+  </footer>
+
+  <!-- MODAL -->
+  <div id="videoModal" class="video-modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <video id="modalVideo" controls autoplay style="display: none;"></video>
+      <iframe id="modalIframe" frameborder="0" style="display: none;"></iframe>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

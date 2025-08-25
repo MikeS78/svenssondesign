@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>300x600</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="ad.size" content="width=300,height=600">
+
+
+
+		<script type="text/javascript"></script>
+
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+	
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+
+<body>
+	
+
+	<div class="bannerBG">
+	
+
+	<div class="bg" id="bg1"><img src="images/bg.jpg" width="300" height="600"></div> 
+	<div class="logo" ><img src="images/logo.png" width="300" height="600"></div> 
+	<div class="ru"><img src="images/ru1.png" width="300" height="600"></div>
+	<div class="ru"><img src="images/ru2.png" width="300" height="600"></div>
+	<div class="ru"><img src="images/ru3.png" width="300" height="600"></div>
+	
+		<div class="splash"><img src="images/splash.png" width="300" height="600"></div> 
+	<div class="pix"><img src="images/b1.png" width="300" height="600"></div> 
+	<div class="pix"><img src="images/b2.png" width="300" height="600"></div> 
+	<div class="pix"><img src="images/b3.png" width="300" height="600"></div> 
+	<div class="cta"><img src="images/cta.png" width="300" height="600"></div> 
+</div>
+
+<script>
+
+
+var tl = gsap.timeline({repeat: 6, repeatDelay: 4});
+
+tl.set("#bg1", {opacity: 1.0},);
+
+tl.fromTo(".logo", {opacity: 0.001,  scale: 2, transformOrigin: '160px 90px'}, { opacity: 1, duration: 1, scale: 1, ease: Power2.easeOut, },"<0.6");
+
+
+
+
+
+tl.fromTo(".ru", {opacity: 0.001, y:-10, scale: 1, transformOrigin: '160px 160px'}, {  stagger: 0.4, opacity: 1, duration: 1, scale: 1, ease: Power2.easeOut, y:0},"<0.6");
+
+tl.fromTo(".pix", {opacity: 0.001, y: 0, transformOrigin: '160px 160px'}, {  y: 0, stagger: 0.4, opacity: 1, duration: 1, ease: Power2.easeOut, y:0},"<0");
+
+tl.fromTo(".splash", {scale: 1, opacity: 0.001, x: 200,  transformOrigin: '80px 500px'}, {  x:0, opacity: 1, duration: 1.2,  ease: "elastic.out(0.5,0.3)"},"<2");
+
+
+tl.fromTo(".cta", {opacity: 0.001, transformOrigin: '310px 310px'}, {opacity: 1, duration: 0.5, ease: Elastic.out},">1.7");
+
+tl.fromTo(".splash", { scale: 1}, { duration: 1.2, scale: 1.15, ease: "elastic.out(0.5,0.3)"},"<2");
+tl.fromTo(".splash", { scale: 1.15}, { duration: 1.2, scale: 1, ease: "elastic.out(0.5,0.3)"},"<1.5");
+
+
+
+
+</script>
+
+</a>
+</body>
+</html>
