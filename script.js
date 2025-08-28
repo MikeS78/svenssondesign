@@ -231,7 +231,7 @@ tl.to(".frame.top", { width: "100%", duration: 0.4 })
     ease: "power2.out",
     onStart: () => {
       document.querySelector(".fade-box").style.backgroundImage = 
-        "linear-gradient(90deg,rgba(255, 16, 68, 1) 0%, rgba(222, 20, 141, 1) 100%)";
+        "linear-gradient(90deg,rgba(255, 16, 68, 1) 0%, #ff5858 100%)";
     }
   }, "+0")
   
@@ -463,14 +463,7 @@ gsap.from(".contact-form input, .contact-form textarea, .contact-form button", {
   
   // CASES
 
-document.querySelectorAll('.case-card').forEach(card => {
-  card.addEventListener('click', () => {
-    const media = card.getAttribute('data-media');
-    const size = card.getAttribute('data-size') || ""; 
 
-    openCustomModal({ media, size });
-  });
-});
 
 function openCustomModal({ media, size }) {
   const modal = document.getElementById("customModal");
@@ -484,6 +477,9 @@ function openCustomModal({ media, size }) {
   const isIframe = !isVideo && !isImage;
 
   let width, height;
+
+
+
   if (size && size.includes("x")) {
     [width, height] = size.split("x").map(Number);
   }
@@ -596,7 +592,8 @@ const filtered = filter.toLowerCase() === "alle"
   
       const card = document.createElement("div");
       card.className = "case-card fade-up";
-      card.setAttribute("data-media", c.media);
+      card.setAttribute("data-media", c.media); // data-media attribute
+      card.setAttribute("data-category", c.category);
       if (c.size) card.setAttribute("data-size", c.size);
   
       card.innerHTML = `
@@ -632,6 +629,12 @@ const filtered = filter.toLowerCase() === "alle"
       card.addEventListener('click', () => {
         const media = card.getAttribute('data-media');
         const size = card.getAttribute('data-size') || ""; 
+        const category = card.getAttribute('data-category');
+
+   if (category.toLowerCase() === "htmlsite") {
+      window.open(media, "_blank");
+      return; // spring modal over
+   }
         openCustomModal({ media, size });
       });
     });
