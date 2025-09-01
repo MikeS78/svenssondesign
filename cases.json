@@ -131,6 +131,17 @@
     "thumb": "portfolio/thumb_10.jpg",
     "type": "illustration",
     "size": "600x600"
+  },
+
+
+        {
+    "title": "Takeover banner",
+    "subtitle": "“Full-page banner til kampagne.",
+    "category": "illustration",
+    "media": "portfolio/PLING_takeoverbanner.jpg",
+    "thumb": "portfolio/thumbs/PLING_takeoverbannerthumb.jpg",
+    "type": "illustration",
+    "size": "600x600"
   }
 
 
