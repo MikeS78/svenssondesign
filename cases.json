@@ -1,8 +1,8 @@
 [
 
   {
-    "title": "Visitkort side i Wordpress",
-    "subtitle": "Enkel præsentation for en lille virksomhed",
+    "title": "WP Visitkort side (Japaninfo)",
+    "subtitle": "Enkel præsentation til lille virksomhed",
     "category": "htmlsite",
     "media": "https://www.japaninfo.dk",
     "thumb": "portfolio/thumbs/thumb_web01.png",
@@ -11,7 +11,7 @@
   },
 
   {
-    "title": "SoMe annonce",
+    "title": "SoMe annonce (Spis Bedre)",
     "subtitle": "15 sek. animeret videoklip",
     "category": "video",
     "media": "portfolio/P01_AE_spisbedre.mp4",
@@ -20,8 +20,8 @@
     "size": null
   },
   {
-    "title": "HTML5-banner",
-    "subtitle": "Bannerkampagne, eksempel i 320x320",
+    "title": "HTML5-banner (ACS) ",
+    "subtitle": "Bannerkampagne for Aussie, 320x320 pixels",
     "category": "html5",
     "media": "portfolio/HTML5_P04_Aussie320x320/320x320/K01_12_2020_Auusie_blondehydration_320x320.html",
     "thumb": "portfolio/thumbs/thumb02.png",
@@ -29,8 +29,8 @@
     "size": "320x320"
   },
   {
-    "title": "HTML5-banner",
-    "subtitle": "Bannerkampagne, eksempel i 300x600",
+    "title": "HTML5-banner (Ally)",
+    "subtitle": "Bannerkampagne med Medina, 300x600 pixels",
     "category": "html5",
     "media": "portfolio/HTML5_P03_Medina300x600/300x600.html",
     "thumb": "portfolio/thumbs/thumb03.png",
@@ -38,8 +38,8 @@
     "size": "300x600"
   },
   {
-    "title": "Animeret fortælling",
-    "subtitle": "Illustrationer med tegnefilmseffekter. Illustrationer: Tegnestuen Herman Ditte",
+    "title": "Tegnefilm (Ude og Hjemme)",
+    "subtitle": "Animeret story.  <br>Illustrationer:Tegnestuen Herman Ditte",
     "category": "story",
     "media": "portfolio/AE_P01.mp4",
     "thumb": "portfolio/thumb04_AE01.png",
@@ -47,8 +47,8 @@
     "size": "300x600"
   },
   {
-    "title": "SoMe annonce",
-    "subtitle": "15 sek. animeret videoklip",
+    "title": "SoMe annonce (Se & Hør)",
+    "subtitle": "15 sek. animeret videoklip til SoMe",
     "category": "video",
     "media": "portfolio/SH_ABO_sommer_9-16_01.mp4",
     "thumb": "portfolio/thumb_05.png",
@@ -56,8 +56,8 @@
     "size": "300x600"
   },
   {
-    "title": "TV-spot",
-    "subtitle": "15 sek. reklame på TV2",
+    "title": "TV-spot (Billed-Bladet)",
+    "subtitle": "15 sek. reklame til TV2 sendeflade",
     "category": "tvc",
     "media": "portfolio/TVC_P06.mp4",
     "thumb": "portfolio/thumb05_TVC01_P05.png",
@@ -65,8 +65,8 @@
     "size": "300x600"
   },
   {
-    "title": "HTML-banner",
-    "subtitle": "Bannerkampagne, eksempel i 300x600",
+    "title": "HTML5-banner (Familie-Journal)",
+    "subtitle": "Abonnements bannerkampagne, 300x600 pixels",
     "category": "html5",
     "media": "portfolio/FJ_300x600/300x600.html",
     "thumb": "portfolio/thumb_07.png",
@@ -74,8 +74,8 @@
     "size": "300x600"
   },
   {
-    "title": "SoMe annonce",
-    "subtitle": "15 sek. animeret videoklip",
+    "title": "SoMe annonce (Spis Bedre)",
+    "subtitle": "15 sek. animeret videoklip til SoMe",
     "category": "video",
     "media": "portfolio/SB_Sommer_ABO_MILJØ_2024_1-1.mp4",
     "thumb": "portfolio/thumb_08.png",
@@ -84,8 +84,8 @@
   },
 
   {
-    "title": "Tema illustrationer",
-    "subtitle": "Tema illustrationer til App UI",
+    "title": "Tema illustrationer (Ally)",
+    "subtitle": "Til appens User Interface",
     "category": "illustration",
     "media": "portfolio/UI01buttons.jpg",
     "thumb": "portfolio/UI01buttons.jpg",
@@ -94,8 +94,8 @@
   },
 
     {
-    "title": "Magasinlayout",
-    "subtitle": "Til fagbladet Elektrikeren",
+    "title": "Magasinlayout (Elektrikeren",
+    "subtitle": "Layout af sider til fagblad",
     "category": "Print",
     "media": "portfolio/Opslag_magasin_elektrikeren_P07.jpg",
     "thumb": "portfolio/thumb_P07.jpg",
@@ -104,8 +104,8 @@
   },
 
     {
-    "title": "Interscroller",
-    "subtitle": "Scrollbanner til hjemmeside i mobilvisning",
+    "title": "Interscroller (ACS)",
+    "subtitle": "Scrollbanner for Bruun Rasmussen",
     "category": "Banner",
     "media": "portfolio/interscrollers_bruunR_P08.jpg",
     "thumb": "portfolio/thumb_P08.jpg",
@@ -114,8 +114,8 @@
   },
 
     {
-    "title": "Appstore præsentation",
-    "subtitle": "Videopræsenttation af app på Appstore / Google Play",
+    "title": "Appstore video (Ally)",
+    "subtitle": "Videopræsenttation af app på <br>Appstore / Google Play",
     "category": "Video",
     "media": "portfolio/6-5_appstore_ALLY_Final_P09.mp4",
     "thumb": "portfolio/thumb_P09.png",
@@ -124,7 +124,7 @@
   },
 
       {
-    "title": "Ikoner",
+    "title": "Ikoner (Billed-bladet)",
     "subtitle": "Retroikoner til nostalgi hjemmeside",
     "category": "illustration",
     "media": "portfolio/bb_ikoner.jpg",
@@ -135,14 +135,22 @@
 
 
         {
-    "title": "Takeover banner",
-    "subtitle": "“Full-page banner til kampagne.",
+    "title": "Takeover banner (Pling)",
+    "subtitle": "“Full-page banner til oplysning om ny feature.",
     "category": "illustration",
     "media": "portfolio/PLING_takeoverbanner.jpg",
     "thumb": "portfolio/thumbs/PLING_takeoverbannerthumb.jpg",
     "type": "illustration",
     "size": "600x600"
+  },
+        {
+   "title": "HTML5-banner (Ally)",
+    "subtitle": "Bannerkampagne med tilbud, 930x180 pixels",
+    "category": "html5",
+    "media": "portfolio/Ally 930x180/930x180.html",
+    "thumb": "portfolio/thumbs/thumb_ally01.png",
+    "type": "html5",
+    "size": "930x180"
   }
-
 
 ]
